@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97" height="89.578" viewBox="0 0 97 89.578">
+  <g id="Group_2" data-name="Group 2" transform="translate(-1086 -531.75)">
+    <g id="Group_2-2" data-name="Group 2" transform="translate(869 431.039)" opacity="0.5">
+      <g id="Group_3" data-name="Group 3">
+        <line id="Line_1" data-name="Line 1" x2="100" transform="translate(242.25 102.436) rotate(60)" fill="rgba(0,0,0,0)" stroke="#000" stroke-width="5"/>
+      </g>
+      <line id="Line_2" data-name="Line 2" x2="100" transform="translate(242.25 188.564) rotate(-60)" fill="rgba(0,0,0,0)" stroke="#000" stroke-width="5"/>
+    </g>
+    <text id="E" transform="translate(1086 591.039)" fill="#202020" font-size="43" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">E</tspan></text>
+    <text id="T" transform="translate(1156 591.039)" fill="#202020" font-size="43" font-family="Raleway-Regular, Raleway"><tspan x="0" y="0">T</tspan></text>
+  </g>
+</svg>

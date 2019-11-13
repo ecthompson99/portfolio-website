@@ -1,0 +1,271 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,600,700|Work+Sans:400,700,800");
+* {
+  font-family: "Roboto";
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #141414;
+}
+
+h1 {
+  color: #1e1e1e;
+}
+
+h2 {
+  color: #1e1e1e;
+}
+
+h3 {
+  color: #1e1e1e;
+}
+
+h4 {
+  color: #1e1e1e;
+}
+
+h5 {
+  color: #1e1e1e;
+}
+
+h6 {
+  color: #1e1e1e;
+}
+
+a {
+  color: #1e1e1e;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.p-r {
+  position: relative;
+}
+
+.color-a {
+  color: #0078ff;
+}
+
+.color-d {
+  color: #f5f5f5;
+}
+
+.color-text-a {
+  color: #141414;
+}
+
+.section {
+  padding: 120px 0px;
+}
+
+.section-sm {
+  padding: 60px 0px;
+}
+
+.btn {
+  padding: 18px 38px;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  -webkit-box-shadow: #999999 0px 0px 0px 0px;
+          box-shadow: #999999 0px 0px 0px 0px;
+}
+
+.btn:focus {
+  outline: 0px;
+  border: 0px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-main {
+  background: #0078ff;
+  color: #fff;
+}
+
+.btn-main:hover {
+  color: #fff !important;
+  background: #000;
+}
+
+.btn-black {
+  background: #000;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #0078ff;
+  color: #fff;
+}
+
+.btn-white {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+}
+
+.btn-white:hover {
+  background: transparent;
+  color: #fff;
+}
+
+a {
+  color: #000;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+a:hover {
+  color: #0078ff;
+  text-decoration: none;
+  outline: none;
+}
+
+.bg-primary {
+  background: #0078ff !important;
+}
+
+.bg-secondary {
+  background: #f7f7f7 !important;
+}
+
+.bg-extra {
+  background: #e8eefb !important;
+}
+
+.text-color {
+  color: #0078ff;
+}
+
+.page-title h1 {
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.page-title h1:after {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: 0px;
+  width: 40px;
+  height: 2px;
+  margin-left: -25px;
+  background: #0078ff;
+}
+
+@media (max-width: 575px) {
+  h2,
+  .h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+
+@media (max-width: 400px) {
+  h2,
+  .h2 {
+    font-size: 32px;
+    line-height: 43px;
+  }
+}
+
+.cd-headline.clip span {
+  padding: 0px;
+}
+
+.banner .cd-headline {
+  font-size: 56px;
+  line-height: 70px;
+}
+
+.banner-3 {
+  position: relative;
+}
+
+.page-section {
+  background: #171717;
+  padding: 50px 0px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.page-section a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.page-section a:hover {
+  color: lightblue;
+}
+
+.page-section h1 {
+  color: #fff;
+}
+
+.page-section i {
+  font-size: 60px;
+}
+
+.footer {
+  background: #171717;
+  padding: 20px;
+  color: lightgray;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+#mainNav {
+  background: #171717;
+  color: #fff;
+}
+
+#mainNav a {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+#mainNav a:hover {
+  color: #0078ff;
+}
+
+#title {
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.portfolio-single {
+  padding: 50px;
+}
+
+.portfolio-single img {
+  border-radius: 20px;
+  -webkit-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.portfolio-single img:hover {
+  opacity: 0.7;
+  border-style: solid;
+  border-width: 1px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+}
+
+.btn {
+  border-radius: 10px;
+  width: 150px;
+  height: auto;
+  text-align: center;
+  padding: 10px 20px;
+}
+/*# sourceMappingURL=style2.css.map */

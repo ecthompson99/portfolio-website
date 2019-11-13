@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ethan Thompson</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/Light Logo.png"/>
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body id="page-top">
+    <!--/ Nav Star /-->
+    <nav
+      class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
+      id="mainNav"
+    >
+      <div class="container">
+        <a class="navbar-brand js-scroll" href="#page-top">
+          <img src="img/Light Logo.svg" id="back" alt="Logo" width="50px" />
+          <img src="img/Dark Logo.svg" alt="Logo" id="front" width="50px" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarDefault"
+          aria-controls="navbarDefault"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div
+          class="navbar-collapse collapse justify-content-end"
+          id="navbarDefault"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link js-scroll active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#work">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--/ Nav End /-->
+
+    <!--/ Intro Skew Star /-->
+    <div id="home" class="intro route">
+      <div class="overlay-itro"></div>
+      <div class="intro-content display-table">
+        <div class="table-cell">
+          <div class="container">
+            <!--<p class="display-6 color-d">Hello, world!</p>-->
+            <h1 class="intro-title">Ethan Thompson</h1>
+            <p class="intro-subtitle">
+              <span class="text-slider-items"
+                >Engineering Student, Always Learning, Always Growing</span
+              >
+              <strong class="text-slider"></strong>
+            </p>
+            <p class="pt-3">
+              <a
+                class="portfolio-btn js-scroll"
+                href="#work"
+                role="button"
+                >My Work</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ Intro Skew End /-->
+
+    <!-- ABOUT ME SECTION -->
+    <section id="about" class="about-mf sect-pt4 route">
+      <div class="container">
+        <div id="img">
+            <img id = "profile-pic" src="img/linkedin.jpg" alt="Picture of me">
+            <div class="about-socials">
+                <ul>
+                  <li>
+                    <a href="https://www.linkedin.com/in/ecthompson99/">
+                      <span class="ico-circle">
+                        <i class="ion-social-linkedin"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ecthompson99">
+                      <span class="ico-circle">
+                        <i class="ion-social-github"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:ec3thomp@uwaterloo.ca">
+                      <span class="ico-circle">
+                        <i class="ion-android-mail"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <span class="ico-circle">
+                        <i class="ion-ios-paper"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+        <div class="description">
+          <h3 id="about-title">
+            Hey, there!
+          </h3>
+          <p id="about-me">
+              My name is Ethan and I'm a nanotechnology engineering student at the University of Waterloo.
+              My program has encouraged me to develop strong research abilities bringing together skillsets from electrical engineering, chemistry, materials science, statistics, and biology. Accordingly, I have a diverse background in multiple subject areas which allows me to leverage transferable knowledge across fields.
+              There’s so much out there to learn; ultimately, my goal is to apply myself to engage in productive and meaningful work. However, I don’t hope to achieve this alone. Eliud Kipchoge captured the sentiment well when he said: “one hundred percent of me is nothing compared to one percent of the whole team.” Along my journey, I hope to forge positive relationships and create lasting change, collaboratively. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="work" class="portfolio ">
+      <div class="container">
+        <h1 class="portfolio-title">My Portfolio</h1>
+        <div class="categories">
+          <div class="cat-buttons">
+            <div class="btn-group btn-group-toggle " data-toggle="buttons">
+              <label class="btn active ">
+                <input
+                  type="radio"
+                  name="shuffle-filter"
+                  value="all"
+                  checked="checked"
+                />All Projects
+              </label>
+              <label class="btn">
+                <input type="radio" name="shuffle-filter" value="Hardware" />
+                Hardware
+              </label>
+              <label class="btn">
+                <input type="radio" name="shuffle-filter" value="Software"/> 
+                Software
+              </label>
+              <label class="btn">
+                <input type="radio" name="shuffle-filter" value="Machine Learning"/>
+                Machine Learning
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row shuffle-wrapper portfolio-gallery">
+          <div
+            class="col-lg-4 col-6 mb-4 shuffle-item"
+            data-groups='["Hardware"]'
+          >
+            <div class="position-relative inner-box">
+              <div class="image position-relative ">
+                <img
+                  src="img/1.jpg"
+                  alt="portfolio-image"
+                  class="img-fluid w-100 d-block"
+                />
+                <div class="overlay-box">
+                  <div class="overlay-inner">
+                    <a class="overlay-content" href="microfluidics.html">
+                      <h5 class="mb-0">Free-flow Electrophoresis</h5>
+                      <p>Continuous Protein Separation</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-6 mb-4 shuffle-item"
+            data-groups='["Hardware", "Software"]'
+          >
+            <div class="position-relative inner-box">
+              <div class="image position-relative ">
+                <img
+                  src="img/3.jpg"
+                  alt="portfolio-image"
+                  class="img-fluid w-100 d-block"
+                />
+                <div class="overlay-box">
+                  <div class="overlay-inner">
+                    <a class="overlay-content" href="hemopalm.html">
+                      <h5 class="mb-0">HemoPalm</h5>
+                      <p>Handheld blood-gas analyzer</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-4 col-6 mb-4 shuffle-item"
+            data-groups='["Hardware", "Software", "Machine Learning"]'
+          >
+            <div class="position-relative inner-box">
+              <div class="image position-relative ">
+                <img
+                  src="img/2.jpg"
+                  alt="portfolio-image"
+                  class="img-fluid w-100 d-block"
+                />
+                <div class="overlay-box">
+                  <div class="overlay-inner">
+                    <a class="overlay-content" href="sniffing-sensor.html">
+                      <h5 class="mb-0">Sniffing Sensor</h5>
+                      <p>Volatile gas detection system</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups='["Software", "Machine Learning"]'>
+            <div class="position-relative inner-box">
+              <div class="image position-relative ">
+                <img src="img/4.jpg" alt="portfolio-image" class="img-fluid w-100 d-block"/>
+                <div class="overlay-box">
+                  <div class="overlay-inner">
+                    <a class="overlay-content" href="market-ai.html">
+                      <h5 class="mb-0">Market AI</h5>
+                      <p>Securities Sentiment Analysis</p>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--/ CONTACT ME /-->
+    <section class="page-section" id="contact">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="contact-title text-center">
+                <h1 class="portfolio-title">Let's get in touch!</h1>
+              <p class="comments">
+                Looking to hire? I would love to discuss some of my work with you. Feel free to call or send me an email!
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
+              <i class="ion-ios-telephone "></i>
+              <a class="d-block" href="tel:18573205840">1 (857) 320-5840</a>
+            </div>
+            <div class="col-lg-4 mr-auto text-center">
+              <i class="ion-email"></i>
+              <a class="d-block" href="mailto:ec3thomp@uwaterloo.ca"
+                >ec3thomp@uwaterloo.ca</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div>
+          <div>
+            Copyright &copy; 2019 - Ethan Thompson
+          </div>
+        </div>
+      </footer>
+
+    <a href="#" class="back-to-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+    <div id="preloader"></div>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="lib/counterup/jquery.counterup.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+
+    <!-- <script src="lib/plugins/jQuery/jquery.min.js"></script> -->
+    <script src="lib/plugins/aos/aos.js"></script>
+    <script src="lib/plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="lib/plugins/shuffle/shuffle.min.js"></script>
+    
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
